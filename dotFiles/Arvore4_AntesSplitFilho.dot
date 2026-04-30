@@ -1,0 +1,10 @@
+digraph BTree {
+    node [shape=record];
+    rankdir=TB;
+
+    node0 [label="6"];
+    node1 [label="3"];
+    node0 -> node1;
+    node2 [label="7 | 9"];
+    node0 -> node2;
+}
